@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"unsafe"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/albinstman/utls"
 )
 
 //go:linkname cipherSuitesTLS13 crypto/tls.cipherSuitesTLS13

@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptrace"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/albinstman/fhttp"
+	"github.com/albinstman/fhttp/httptrace"
+	tls "github.com/albinstman/utls"
 
-	"github.com/bogdanfinn/quic-go-utls/http3"
+	"github.com/albinstman/quic-go-utls/http3"
 	"github.com/stretchr/testify/require"
 )
 

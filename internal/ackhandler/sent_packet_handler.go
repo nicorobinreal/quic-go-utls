@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/congestion"
-	"github.com/bogdanfinn/quic-go-utls/internal/monotime"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/qerr"
-	"github.com/bogdanfinn/quic-go-utls/internal/utils"
-	"github.com/bogdanfinn/quic-go-utls/internal/wire"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
+	"github.com/albinstman/quic-go-utls/internal/congestion"
+	"github.com/albinstman/quic-go-utls/internal/monotime"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/internal/qerr"
+	"github.com/albinstman/quic-go-utls/internal/utils"
+	"github.com/albinstman/quic-go-utls/internal/wire"
+	"github.com/albinstman/quic-go-utls/qlog"
+	"github.com/albinstman/quic-go-utls/qlogwriter"
 )
 
 const (

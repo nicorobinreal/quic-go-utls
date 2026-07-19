@@ -3,10 +3,10 @@ package flowcontrol
 import (
 	"fmt"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/monotime"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/qerr"
-	"github.com/bogdanfinn/quic-go-utls/internal/utils"
+	"github.com/albinstman/quic-go-utls/internal/monotime"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/internal/qerr"
+	"github.com/albinstman/quic-go-utls/internal/utils"
 )
 
 type streamFlowController struct {

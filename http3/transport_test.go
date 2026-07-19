@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptest"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/albinstman/fhttp"
+	"github.com/albinstman/fhttp/httptest"
+	tls "github.com/albinstman/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
+	"github.com/albinstman/quic-go-utls"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

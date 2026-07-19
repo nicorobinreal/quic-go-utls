@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/albinstman/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/synctest"
-	"github.com/bogdanfinn/quic-go-utls/testutils/simnet"
+	"github.com/albinstman/quic-go-utls"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/internal/synctest"
+	"github.com/albinstman/quic-go-utls/testutils/simnet"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

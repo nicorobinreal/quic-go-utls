@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/quicvarint"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/quicvarint"
 )
 
 // Clone clones a Config.

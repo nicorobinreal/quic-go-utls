@@ -6,11 +6,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/ackhandler"
-	"github.com/bogdanfinn/quic-go-utls/internal/flowcontrol"
-	"github.com/bogdanfinn/quic-go-utls/internal/monotime"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/wire"
+	"github.com/albinstman/quic-go-utls/internal/ackhandler"
+	"github.com/albinstman/quic-go-utls/internal/flowcontrol"
+	"github.com/albinstman/quic-go-utls/internal/monotime"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/internal/wire"
 )
 
 // A SendStream is a unidirectional Send Stream.

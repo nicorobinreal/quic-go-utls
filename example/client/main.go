@@ -9,13 +9,13 @@ import (
 	"os"
 	"sync"
 
-	http "github.com/bogdanfinn/fhttp"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/albinstman/fhttp"
+	tls "github.com/albinstman/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3"
-	"github.com/bogdanfinn/quic-go-utls/http3/qlog"
-	"github.com/bogdanfinn/quic-go-utls/internal/testdata"
+	"github.com/albinstman/quic-go-utls"
+	"github.com/albinstman/quic-go-utls/http3"
+	"github.com/albinstman/quic-go-utls/http3/qlog"
+	"github.com/albinstman/quic-go-utls/internal/testdata"
 )
 
 func main() {

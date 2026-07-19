@@ -5,15 +5,15 @@ import (
 	"log"
 	"net"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/albinstman/utls"
 
-	fuzzhandshake "github.com/bogdanfinn/quic-go-utls/fuzzing/handshake"
-	"github.com/bogdanfinn/quic-go-utls/fuzzing/internal/helper"
-	"github.com/bogdanfinn/quic-go-utls/internal/handshake"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/internal/testdata"
-	"github.com/bogdanfinn/quic-go-utls/internal/utils"
-	"github.com/bogdanfinn/quic-go-utls/internal/wire"
+	fuzzhandshake "github.com/albinstman/quic-go-utls/fuzzing/handshake"
+	"github.com/albinstman/quic-go-utls/fuzzing/internal/helper"
+	"github.com/albinstman/quic-go-utls/internal/handshake"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/internal/testdata"
+	"github.com/albinstman/quic-go-utls/internal/utils"
+	"github.com/albinstman/quic-go-utls/internal/wire"
 )
 
 const alpn = "fuzz"

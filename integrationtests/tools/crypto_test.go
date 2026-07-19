@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/albinstman/utls"
 
 	"github.com/stretchr/testify/require"
 )

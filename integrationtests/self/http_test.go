@@ -18,17 +18,17 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptrace"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/albinstman/fhttp"
+	"github.com/albinstman/fhttp/httptrace"
+	tls "github.com/albinstman/utls"
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3"
-	"github.com/bogdanfinn/quic-go-utls/http3/qlog"
-	quicproxy "github.com/bogdanfinn/quic-go-utls/integrationtests/tools/proxy"
-	"github.com/bogdanfinn/quic-go-utls/testutils/events"
+	"github.com/albinstman/quic-go-utls"
+	"github.com/albinstman/quic-go-utls/http3"
+	"github.com/albinstman/quic-go-utls/http3/qlog"
+	quicproxy "github.com/albinstman/quic-go-utls/integrationtests/tools/proxy"
+	"github.com/albinstman/quic-go-utls/testutils/events"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

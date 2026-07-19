@@ -10,16 +10,16 @@ import (
 	"strings"
 	"sync"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptrace"
+	http "github.com/albinstman/fhttp"
+	"github.com/albinstman/fhttp/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"
 	"golang.org/x/net/idna"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
+	"github.com/albinstman/quic-go-utls"
+	"github.com/albinstman/quic-go-utls/http3/qlog"
+	"github.com/albinstman/quic-go-utls/qlogwriter"
 	"github.com/quic-go/qpack"
 )
 

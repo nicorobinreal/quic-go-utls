@@ -12,14 +12,14 @@ import (
 	"strings"
 	"sync"
 
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/albinstman/fhttp"
 
 	_ "net/http/pprof"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3"
-	"github.com/bogdanfinn/quic-go-utls/http3/qlog"
-	"github.com/bogdanfinn/quic-go-utls/internal/testdata"
+	"github.com/albinstman/quic-go-utls"
+	"github.com/albinstman/quic-go-utls/http3"
+	"github.com/albinstman/quic-go-utls/http3/qlog"
+	"github.com/albinstman/quic-go-utls/internal/testdata"
 )
 
 type binds []string

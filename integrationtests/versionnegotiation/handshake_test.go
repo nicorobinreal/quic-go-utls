@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
-	"github.com/bogdanfinn/quic-go-utls/testutils/events"
+	"github.com/albinstman/quic-go-utls"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/qlog"
+	"github.com/albinstman/quic-go-utls/qlogwriter"
+	"github.com/albinstman/quic-go-utls/testutils/events"
 
 	"github.com/stretchr/testify/require"
 )

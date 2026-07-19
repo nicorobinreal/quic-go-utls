@@ -5,9 +5,9 @@ import (
 	"net"
 	"testing"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/albinstman/utls"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/testdata"
+	"github.com/albinstman/quic-go-utls/internal/testdata"
 
 	"github.com/stretchr/testify/require"
 )

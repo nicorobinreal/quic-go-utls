@@ -3,8 +3,8 @@ package ackhandler
 import (
 	"sync"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/monotime"
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
+	"github.com/albinstman/quic-go-utls/internal/monotime"
+	"github.com/albinstman/quic-go-utls/internal/protocol"
 )
 
 type packetWithPacketNumber struct {

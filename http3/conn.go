@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptrace"
+	http "github.com/albinstman/fhttp"
+	"github.com/albinstman/fhttp/httptrace"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	"github.com/bogdanfinn/quic-go-utls/http3/qlog"
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter"
-	"github.com/bogdanfinn/quic-go-utls/quicvarint"
+	"github.com/albinstman/quic-go-utls"
+	"github.com/albinstman/quic-go-utls/http3/qlog"
+	"github.com/albinstman/quic-go-utls/qlogwriter"
+	"github.com/albinstman/quic-go-utls/quicvarint"
 
 	"github.com/quic-go/qpack"
 )
