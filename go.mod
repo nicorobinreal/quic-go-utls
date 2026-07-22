@@ -3,7 +3,7 @@ module github.com/albinstman/quic-go-utls
 go 1.24.1
 
 require (
-	github.com/albinstman/fhttp v0.6.8-albinstman.1
+	github.com/albinstman/fhttp v0.6.8-albinstman.2
 	github.com/albinstman/utls v1.7.7-albinstman.1
 	github.com/quic-go/qpack v0.6.0
 	github.com/stretchr/testify v1.11.1
