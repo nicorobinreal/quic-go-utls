@@ -3,8 +3,8 @@ module github.com/nicorobinreal/quic-go-utls
 go 1.24.1
 
 require (
-	github.com/nicorobinreal/fhttp v0.6.8-albinstman.2
-	github.com/nicorobinreal/utls v1.7.7-albinstman.1
+	github.com/nicorobinreal/fhttp v0.6.8-nicorobinreal.1
+	github.com/nicorobinreal/utls v1.7.7-nicorobinreal.1
 	github.com/quic-go/qpack v0.6.0
 	github.com/stretchr/testify v1.11.1
 	go.uber.org/mock v0.5.2
