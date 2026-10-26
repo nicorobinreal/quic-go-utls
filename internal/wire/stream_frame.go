@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/quicvarint"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/quicvarint"
 )
 
 // A StreamFrame of QUIC

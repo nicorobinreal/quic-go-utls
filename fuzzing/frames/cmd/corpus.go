@@ -6,10 +6,10 @@ import (
 	mrand "math/rand/v2"
 	"time"
 
-	"github.com/albinstman/quic-go-utls"
-	"github.com/albinstman/quic-go-utls/fuzzing/internal/helper"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls/fuzzing/internal/helper"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
 )
 
 const version = protocol.Version1

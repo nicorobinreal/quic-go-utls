@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/albinstman/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls"
 )
 
 // Error is returned from the round tripper (for HTTP clients)

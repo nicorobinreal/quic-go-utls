@@ -6,7 +6,7 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	tls "github.com/albinstman/utls"
+	tls "github.com/nicorobinreal/utls"
 
 	"golang.org/x/crypto/chacha20poly1305"
 )

@@ -6,12 +6,12 @@ import (
 	"net"
 	"testing"
 
-	http "github.com/albinstman/fhttp"
-	"github.com/albinstman/fhttp/httptest"
-	tls "github.com/albinstman/utls"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/httptest"
+	tls "github.com/nicorobinreal/utls"
 
-	"github.com/albinstman/quic-go-utls"
-	"github.com/albinstman/quic-go-utls/internal/testdata"
+	"github.com/nicorobinreal/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls/internal/testdata"
 
 	"github.com/stretchr/testify/require"
 )

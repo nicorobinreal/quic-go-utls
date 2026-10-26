@@ -9,14 +9,14 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/albinstman/fhttp"
-	"github.com/albinstman/fhttp/httptest"
-	"github.com/albinstman/fhttp/httptrace"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/httptest"
+	"github.com/nicorobinreal/fhttp/httptrace"
 
-	"github.com/albinstman/quic-go-utls"
-	"github.com/albinstman/quic-go-utls/http3/qlog"
-	"github.com/albinstman/quic-go-utls/qlogwriter"
-	"github.com/albinstman/quic-go-utls/testutils/events"
+	"github.com/nicorobinreal/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls/http3/qlog"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter"
+	"github.com/nicorobinreal/quic-go-utls/testutils/events"
 
 	"github.com/quic-go/qpack"
 

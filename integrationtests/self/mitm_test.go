@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/albinstman/quic-go-utls"
-	quicproxy "github.com/albinstman/quic-go-utls/integrationtests/tools/proxy"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/wire"
-	"github.com/albinstman/quic-go-utls/testutils"
+	"github.com/nicorobinreal/quic-go-utls"
+	quicproxy "github.com/nicorobinreal/quic-go-utls/integrationtests/tools/proxy"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/testutils"
 
 	"github.com/stretchr/testify/require"
 )

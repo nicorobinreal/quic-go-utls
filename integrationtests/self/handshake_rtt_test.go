@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	tls "github.com/albinstman/utls"
+	tls "github.com/nicorobinreal/utls"
 
-	"github.com/albinstman/quic-go-utls"
-	"github.com/albinstman/quic-go-utls/internal/synctest"
+	"github.com/nicorobinreal/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls/internal/synctest"
 
 	"github.com/stretchr/testify/require"
 )

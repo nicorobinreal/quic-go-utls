@@ -4,8 +4,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/albinstman/quic-go-utls/internal/monotime"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/monotime"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
 
 	"github.com/stretchr/testify/require"
 )

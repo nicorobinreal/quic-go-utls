@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	tls "github.com/albinstman/utls"
+	tls "github.com/nicorobinreal/utls"
 
-	"github.com/albinstman/quic-go-utls/internal/monotime"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/qerr"
-	"github.com/albinstman/quic-go-utls/internal/utils"
-	"github.com/albinstman/quic-go-utls/qlog"
-	"github.com/albinstman/quic-go-utls/qlogwriter"
+	"github.com/nicorobinreal/quic-go-utls/internal/monotime"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/qerr"
+	"github.com/nicorobinreal/quic-go-utls/internal/utils"
+	"github.com/nicorobinreal/quic-go-utls/qlog"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter"
 )
 
 var keyUpdateInterval atomic.Uint64

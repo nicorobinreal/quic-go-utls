@@ -4,15 +4,15 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/qlogwriter/jsontext"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter/jsontext"
 )
 
 type ConnectionID = protocol.ConnectionID
 
 // Setting of this only works when quic-go is used as a library.
 // When building a binary from this repository, the version can be set using the following go build flag:
-// -ldflags="-X github.com/albinstman/quic-go-utls/qlogwriter.quicGoVersion=foobar"
+// -ldflags="-X github.com/nicorobinreal/quic-go-utls/qlogwriter.quicGoVersion=foobar"
 var quicGoVersion = "(devel)"
 
 func init() {
@@ -24,7 +24,7 @@ func init() {
 		return
 	}
 	for _, d := range info.Deps {
-		if d.Path == "github.com/albinstman/quic-go-utls" {
+		if d.Path == "github.com/nicorobinreal/quic-go-utls" {
 			quicGoVersion = d.Version
 			if d.Replace != nil {
 				if len(d.Replace.Version) > 0 {

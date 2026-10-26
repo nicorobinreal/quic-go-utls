@@ -7,11 +7,11 @@ import (
 	"slices"
 	"time"
 
-	tls "github.com/albinstman/utls"
+	tls "github.com/nicorobinreal/utls"
 
-	"github.com/albinstman/quic-go-utls/internal/handshake"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/qlogwriter"
+	"github.com/nicorobinreal/quic-go-utls/internal/handshake"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter"
 )
 
 // The StreamID is the ID of a QUIC stream.

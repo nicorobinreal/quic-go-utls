@@ -13,19 +13,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	tls "github.com/albinstman/utls"
+	tls "github.com/nicorobinreal/utls"
 
-	"github.com/albinstman/quic-go-utls/internal/ackhandler"
-	"github.com/albinstman/quic-go-utls/internal/flowcontrol"
-	"github.com/albinstman/quic-go-utls/internal/handshake"
-	"github.com/albinstman/quic-go-utls/internal/monotime"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/qerr"
-	"github.com/albinstman/quic-go-utls/internal/utils"
-	"github.com/albinstman/quic-go-utls/internal/utils/ringbuffer"
-	"github.com/albinstman/quic-go-utls/internal/wire"
-	"github.com/albinstman/quic-go-utls/qlog"
-	"github.com/albinstman/quic-go-utls/qlogwriter"
+	"github.com/nicorobinreal/quic-go-utls/internal/ackhandler"
+	"github.com/nicorobinreal/quic-go-utls/internal/flowcontrol"
+	"github.com/nicorobinreal/quic-go-utls/internal/handshake"
+	"github.com/nicorobinreal/quic-go-utls/internal/monotime"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/qerr"
+	"github.com/nicorobinreal/quic-go-utls/internal/utils"
+	"github.com/nicorobinreal/quic-go-utls/internal/utils/ringbuffer"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/qlog"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter"
 )
 
 type unpacker interface {
@@ -345,7 +345,7 @@ var newConnection = func(
 		// different from protocol.DefaultActiveConnectionIDLimit.
 		// If set to the default value, it will be omitted from the transport parameters, which will make
 		// old quic-go versions interpret it as 0, instead of the default value of 2.
-		// See https://github.com/albinstman/quic-go-utls/pull/3806.
+		// See https://github.com/nicorobinreal/quic-go-utls/pull/3806.
 		ActiveConnectionIDLimit:   protocol.MaxActiveConnectionIDs,
 		InitialSourceConnectionID: srcConnID,
 		RetrySourceConnectionID:   retrySrcConnID,
@@ -472,7 +472,7 @@ var newClientConnection = func(
 		// different from protocol.DefaultActiveConnectionIDLimit.
 		// If set to the default value, it will be omitted from the transport parameters, which will make
 		// old quic-go versions interpret it as 0, instead of the default value of 2.
-		// See https://github.com/albinstman/quic-go-utls/pull/3806.
+		// See https://github.com/nicorobinreal/quic-go-utls/pull/3806.
 		ActiveConnectionIDLimit:   protocol.MaxActiveConnectionIDs,
 		InitialSourceConnectionID: srcConnID,
 		EnableResetStreamAt:       conf.EnableStreamResetPartialDelivery,

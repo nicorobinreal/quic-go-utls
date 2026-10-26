@@ -8,10 +8,10 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/albinstman/quic-go-utls/fuzzing/internal/helper"
-	"github.com/albinstman/quic-go-utls/fuzzing/transportparameters"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/fuzzing/internal/helper"
+	"github.com/nicorobinreal/quic-go-utls/fuzzing/transportparameters"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
 )
 
 func getRandomData(l int) []byte {

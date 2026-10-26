@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/albinstman/quic-go-utls"
-	"github.com/albinstman/quic-go-utls/internal/synctest"
-	"github.com/albinstman/quic-go-utls/internal/wire"
-	"github.com/albinstman/quic-go-utls/testutils/simnet"
+	"github.com/nicorobinreal/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls/internal/synctest"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/testutils/simnet"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

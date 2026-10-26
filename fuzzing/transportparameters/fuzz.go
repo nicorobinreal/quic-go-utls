@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/albinstman/quic-go-utls/fuzzing/internal/helper"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/fuzzing/internal/helper"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
 )
 
 // PrefixLen is the number of bytes used for configuration

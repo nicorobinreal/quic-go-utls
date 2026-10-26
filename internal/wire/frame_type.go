@@ -1,6 +1,6 @@
 package wire
 
-import "github.com/albinstman/quic-go-utls/internal/protocol"
+import "github.com/nicorobinreal/quic-go-utls/internal/protocol"
 
 type FrameType uint64
 

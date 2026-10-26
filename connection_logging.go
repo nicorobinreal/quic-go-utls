@@ -5,9 +5,9 @@ import (
 	"net/netip"
 	"slices"
 
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/wire"
-	"github.com/albinstman/quic-go-utls/qlog"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/qlog"
 )
 
 // ConvertFrame converts a wire.Frame into a logging.Frame.

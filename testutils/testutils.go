@@ -6,9 +6,9 @@ package testutils
 import (
 	"fmt"
 
-	"github.com/albinstman/quic-go-utls/internal/handshake"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/internal/handshake"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
 )
 
 // writePacket returns a new raw packet with the specified header and payload

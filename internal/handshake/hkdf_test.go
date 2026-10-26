@@ -7,7 +7,7 @@ import (
 	"testing"
 	"unsafe"
 
-	tls "github.com/albinstman/utls"
+	tls "github.com/nicorobinreal/utls"
 
 	"github.com/stretchr/testify/require"
 )

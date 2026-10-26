@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/qerr"
-	"github.com/albinstman/quic-go-utls/internal/synctest"
-	"github.com/albinstman/quic-go-utls/internal/utils"
-	"github.com/albinstman/quic-go-utls/internal/wire"
-	"github.com/albinstman/quic-go-utls/qlogwriter"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/qerr"
+	"github.com/nicorobinreal/quic-go-utls/internal/synctest"
+	"github.com/nicorobinreal/quic-go-utls/internal/utils"
+	"github.com/nicorobinreal/quic-go-utls/internal/wire"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter"
 
 	"github.com/stretchr/testify/require"
 )

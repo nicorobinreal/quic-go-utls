@@ -18,9 +18,9 @@ import (
 	"golang.org/x/net/ipv6"
 	"golang.org/x/sys/unix"
 
-	"github.com/albinstman/quic-go-utls/internal/monotime"
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/utils"
+	"github.com/nicorobinreal/quic-go-utls/internal/monotime"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/utils"
 )
 
 const (

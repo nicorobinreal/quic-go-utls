@@ -1,9 +1,9 @@
 package http3
 
 import (
-	"github.com/albinstman/quic-go-utls"
-	"github.com/albinstman/quic-go-utls/http3/qlog"
-	"github.com/albinstman/quic-go-utls/qlogwriter"
+	"github.com/nicorobinreal/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls/http3/qlog"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter"
 
 	"github.com/quic-go/qpack"
 )

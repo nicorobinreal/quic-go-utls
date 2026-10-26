@@ -3,8 +3,8 @@ package wire
 import (
 	"testing"
 
-	"github.com/albinstman/quic-go-utls/internal/protocol"
-	"github.com/albinstman/quic-go-utls/internal/qerr"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/internal/qerr"
 
 	"github.com/stretchr/testify/require"
 )
