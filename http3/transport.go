@@ -12,12 +12,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptrace"
-	tls "github.com/bogdanfinn/utls"
+	http "github.com/nicorobinreal/fhttp"
+	"github.com/nicorobinreal/fhttp/httptrace"
+	tls "github.com/nicorobinreal/utls"
 	"golang.org/x/net/http/httpguts"
 
-	"github.com/bogdanfinn/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls"
 )
 
 // Settings are HTTP/3 settings that apply to the underlying connection.

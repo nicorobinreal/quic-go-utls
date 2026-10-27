@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls"
-	quicproxy "github.com/bogdanfinn/quic-go-utls/integrationtests/tools/proxy"
+	"github.com/nicorobinreal/quic-go-utls"
+	quicproxy "github.com/nicorobinreal/quic-go-utls/integrationtests/tools/proxy"
 
 	"github.com/stretchr/testify/require"
 )

@@ -1,8 +1,8 @@
 package wire
 
 import (
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/quicvarint"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/quicvarint"
 )
 
 // An ImmediateAckFrame is an IMMEDIATE_ACK frame

@@ -10,9 +10,9 @@ import (
 	"log"
 	"math/big"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/nicorobinreal/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls"
 )
 
 const addr = "localhost:4242"

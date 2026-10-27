@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/nicorobinreal/fhttp"
 
-	"github.com/bogdanfinn/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls"
 )
 
 const NextProto = "hq-interop"

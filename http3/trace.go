@@ -5,10 +5,10 @@ import (
 	"net/textproto"
 	"time"
 
-	"github.com/bogdanfinn/fhttp/httptrace"
-	tls "github.com/bogdanfinn/utls"
+	"github.com/nicorobinreal/fhttp/httptrace"
+	tls "github.com/nicorobinreal/utls"
 
-	"github.com/bogdanfinn/quic-go-utls"
+	"github.com/nicorobinreal/quic-go-utls"
 )
 
 func traceGetConn(trace *httptrace.ClientTrace, hostPort string) {

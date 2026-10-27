@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bogdanfinn/quic-go-utls/qlogwriter/jsontext"
+	"github.com/nicorobinreal/quic-go-utls/qlogwriter/jsontext"
 
 	"github.com/stretchr/testify/require"
 )

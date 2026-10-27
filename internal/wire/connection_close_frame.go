@@ -3,8 +3,8 @@ package wire
 import (
 	"io"
 
-	"github.com/bogdanfinn/quic-go-utls/internal/protocol"
-	"github.com/bogdanfinn/quic-go-utls/quicvarint"
+	"github.com/nicorobinreal/quic-go-utls/internal/protocol"
+	"github.com/nicorobinreal/quic-go-utls/quicvarint"
 )
 
 // A ConnectionCloseFrame is a CONNECTION_CLOSE frame
